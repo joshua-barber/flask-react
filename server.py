@@ -27,3 +27,4 @@ def pageNotFound(error):
     return render_template('404.html')
 
 ###############
+app.run(debug=True, host='0.0.0.0')
