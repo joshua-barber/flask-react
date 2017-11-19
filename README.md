@@ -1,14 +1,10 @@
-# flask-react
-Boilerplate with a Flask backend and React frontend
+# flask-react 
+Boilerplate with a Flask backend and React frontend  
 
-# Get started
-  
-    git clone https://github.com/jbkuczma/flask-react.git
-    virtualenv flask-react (recommended)
-    cd flask-react
-    
-    pip install -r requirements.txt
-    npm install
-    
-    npm run watch -> watch for any jsx file changes with webpack
-    sh start.sh -> start flask server
+# Get started - enter the following into your terminal
+git clone https://github.com/joshua-barber/flask-react.git  
+cd flask-react  
+docker build -t flask-react  
+docker run --rm -p 5000:5000 flask-react  
+
+# Visit localhost:5000  
