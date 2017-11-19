@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import MainWindow from './components/MainWindow.jsx'
+import MainWindow from './components/Mainwindow.jsx'
 
 export default class App extends React.Component {
     
