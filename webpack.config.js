@@ -20,5 +20,6 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: __dirname + '/app/backend/static'
-    }
+    },
+    devtool: '#eval-source-map',    
 }
